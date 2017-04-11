@@ -1,0 +1,23 @@
+{
+  "name": "foundation-a11y-palette-picker",
+  "version": "01.0.1",
+  "authors": [
+    "Andy Cochran"
+  ],
+  "description": "Choose an a11y-compliant color palette to use with Foundation.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://andycochran.github.io/foundation-a11y-palette-picker",
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}

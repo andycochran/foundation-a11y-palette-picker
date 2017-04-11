@@ -1,0 +1,32 @@
+{
+  "name": "foundation-a11y-palette-picker",
+  "version": "0.0.1",
+  "description": "Choose an a11y-compliant color palette to use with Foundation.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.5.2"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andycochran/foundation-a11y-palette-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andycochran/foundation-a11y-palette-picker/issues",
+  },
+  "author": "Andy Cochran",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
