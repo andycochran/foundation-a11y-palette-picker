@@ -52,7 +52,7 @@
 
 .color-grid {
   @include breakpoint(medium) {
-    @include grid-row(18) {
+    @include grid-row(22) {
       .color {
         @include grid-column(1, 0.25rem);
         &.zero {
@@ -302,7 +302,7 @@ $my-palette: map-merge($foundation-palette, (
     @include swatch($color);
   }
 
-  @for $i from 1 through 8 {
+  @for $i from 1 through 10 {
     $percentage: $i * 3%;
     $l-color: lighten($color,$percentage);
     $d-color: darken($color,$percentage);

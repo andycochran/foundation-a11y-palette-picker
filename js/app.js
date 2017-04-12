@@ -6,7 +6,7 @@ $('div.color-grid').each(function() {
 
   $(this).find('.swatch').addClass(color);
 
-  for (i = 1; i < 9; i++) {
+  for (i = 1; i < 11; i++) {
     $('<div class="color"><span class="swatch ' + color + '-l' + i + '">&#10004;</span></div>').prependTo(this);
     $('<div class="color"><span class="swatch ' + color + '-d' + i + '">&#10004;</span></div>').appendTo(this);
   }
