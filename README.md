@@ -1,3 +1,5 @@
+**[View the GitHub Pages demo](https://andycochran.github.io/foundation-a11y-palette-picker/)**
+
 # Foundation A11y-Compliant Color Palette Picker
 
 This tool helps you choose an a11y-compliant color palette to use with Foundation by determining which colors meet WCAG 2.0 level AA contrast requirements.
